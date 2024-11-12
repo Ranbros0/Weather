@@ -1,4 +1,4 @@
-const apiKey = 'ВАШ_API_КЛЮЧ';  // Вставте ваш API-ключ OpenWeatherMap
+const apiKey = '80b17e2a3b849199f2311e6a41414ff9';  // Вставте ваш API-ключ OpenWeatherMap
 
 function getWeather() {
     const city = document.getElementById('city').value;
