@@ -1,7 +1,7 @@
 const apiKey = 'e5de77b142a9c1f4078fe968f4e39f9f';  // Вставте ваш API-ключ OpenWeatherMap
 
 function getWeather() {
-    const city = document.getElementById('city').value;
+    const city = document.getElementById('Kiev').value;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=uk`;
 
     // Створення AJAX-запиту
